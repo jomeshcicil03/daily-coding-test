@@ -16,7 +16,7 @@ public class TransposeMatrix {
         }
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                transpose[j][i] = matrix[i][j];  // Swapping rows and columns
+                transpose[j][i] = matrix[i][j];
             }
         }
         System.out.println("\nOriginal Matrix:");
